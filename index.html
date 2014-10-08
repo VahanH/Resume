@@ -18,113 +18,269 @@
 </head>
 <body>
 <div class="container">
-    <div class="center-block">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="images/avatar.jpg" width="140" height="140" class="img-rounded"/>
+<div class="center-block">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="images/avatar.jpg" width="140" height="140" class="img-rounded"/>
 
-                <h2>Vahan Hakobyan</h2>
-            </div>
-            <div class="col-md-6">
-                <address>
-                    <p><strong>Address:</strong> Aeratsia 3b., 33apt.,</br>
-                        Yerevan 0057, Armenia</p>
+            <h2>Vahan Hakobyan</h2>
+        </div>
+        <div class="col-md-6">
+            <div class="tab-content">
+                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                    <li class="active"><a href="#feedback_methods" role="tab" data-toggle="tab"><span
+                            class="glyphicon glyphicon-home"></span>Feedback Methods</a>
+                    </li>
+                    <li><a href="#feedback" role="tab" data-toggle="tab"><span
+                            class="glyphicon glyphicon-envelope"></span> Feedback</a></li>
+                    <li><a href="#comments" role="tab" data-toggle="tab"><span
+                            class="glyphicon glyphicon-comment"></span> Comments</a></li>
+                </ul>
+                <div class="tab-pane active" id="feedback_methods">
+                    <address>
+                        <p><strong>Address:</strong> Aeratsia 3b., 33apt.,</br>
+                            Yerevan 0057, Armenia</p>
 
-                    <p><strong>Phone:</strong> +37493659397</p>
+                        <p><strong>Phone:</strong> +37493659397</p>
 
-                    <p><strong>E-mail:</strong> vahanius@gmail.com</p>
-                </address>
-            </div>
-        </div>
-        <div class="row">
-            <hr width="100%" color="black"/>
-            <div class="col-md-4">
-                <h3><strong>WORK EXPERIENCE:</strong></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h4>January 2013-July 2013</h4>
-            </div>
-            <div class="col-md-6">
-                <h4>Tumo center for creative technologies</h4>
-                <h4>IT specialist</h4></br>
-                <em>Main responsibilities:</br>
-                    Install, configure and maintain software and hardware systems</br>
-                    Analyze system issues and provide solutions</br>
-                    Ensure networking stability and monitor all work regularly</br>
-                    Report system downtime and performance issues to manager
-                </em>
+                        <p><strong>E-mail:</strong> vahanius@gmail.com</p>
+                    </address>
+                </div>
+                <div class="tab-pane" id="feedback">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName3" class="col-sm-2 control-label">Name</label>
+
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="inputName3" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input/Message3" class="col-sm-2 control-label">Message</label>
+
+                            <div class="col-sm-10">
+                                <textarea class="form-control" rows="3" id="input/Message3"
+                                          placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="tab-pane" id="comments">
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                            Comment
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span
+                            aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Comments</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea class="form-control" rows="3" id="input/Comments"
+                              placeholder="Comment"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send comment</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3><strong>ACADEMIC BACKGROUND:</strong></h3>
+
+    </div>
+</div>
+<div class="row">
+    <hr width="100%" color="black"/>
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                        <span class="glyphicon glyphicon-lock"></span>
+                        WORK EXPERIENCE
+                    </a>
+                </h4>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h4>2011 - 2015</h4>
-            </div>
-            <div class="col-md-6">
-                <p>
-                    Armenian state University of Economics</br>
-                    Faculty of Management</br>
-                    Bachelor degree
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3><strong>COMPUTER SKILLS:</strong></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    Windows server 2003, TCP/IP Protocols, PHP, MySQL,</br>
-                    HTML, MS Office (Word, Excel, Access, Power Point),</br>
-                    Photoshop CS
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3><strong>LANGUAGES:</strong></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    Armenian Native, Russian Fluent, English width dictionary,</br>
-                    Georgian Fluent
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <h3><strong>PERSONAL:</strong></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-            </div>
-            <div class="col-md-6">
-                <p>
-                    Date of Birth: 10.09.1993
-                </p>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <div class="col-md-4">
+                        <h3><strong>WORK EXPERIENCE:</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>January 2013-July 2013</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Tumo center for creative technologies</h4>
+                        <h4>IT specialist</h4></br>
+                        <em>Main responsibilities:</br>
+                            Install, configure and maintain software and hardware systems</br>
+                            Analyze system issues and provide solutions</br>
+                            Ensure networking stability and monitor all work regularly</br>
+                            Report system downtime and performance issues to manager
+                        </em>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    <span class="glyphicon glyphicon-book"></span>
+                    ACADEMIC BACKGROUND
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><strong>ACADEMIC BACKGROUND:</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>2011 - 2015</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Armenian state University of Economics</br>
+                            Faculty of Management</br>
+                            Bachelor degree
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    <span class="glyphicon glyphicon-cog"></span>
+                    COMPUTER SKILLS
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><strong>COMPUTER SKILLS:</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Windows server 2003, TCP/IP Protocols, PHP, MySQL,</br>
+                            HTML, MS Office (Word, Excel, Access, Power Point),</br>
+                            Photoshop CS
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    <span class="glyphicon glyphicon-font"></span>
+                    LANGUAGES
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><strong>LANGUAGES:</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Armenian Native, Russian Fluent, English width dictionary,</br>
+                            Georgian Fluent
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    <span class="glyphicon glyphicon-user"></span>
+                    PERSONAL
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><strong>PERSONAL:</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Date of Birth: 10.09.1993
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script>
+
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
+
+</script>
 </body>
 </html>
